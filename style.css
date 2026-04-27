@@ -1,0 +1,78 @@
+body {
+    background-color: deepskyblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+main {
+    background-color: #0781D6;
+    max-width: 1000px;
+    margin: 10px auto 75px auto;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #0A0A0A;
+    text-align: center;
+    padding: 5px;
+    color:deepskyblue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    color:antiquewhite;
+}
+
+label {
+    background-color: #0781D6;
+    display: inline-block;
+    min-width: 220px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+input {
+    font-size: 1em;
+    background-color: antiquewhite;
+}
+
+textarea {
+    height: 450px;
+    width: 315px;
+    margin: 5px;
+}
+
+button, input[type='file'] {
+    background-color:deepskyblue;
+    font-size: 1em;
+    padding: 4px;
+    margin: 5px;
+    color: antiquewhite;
+    border: solid 4px #0781D6;
+}
+
+button:hover {
+    border-bottom: solid 4px antiquewhite;
+    box-shadow: 8px 8px 5px lightblue;
+}
